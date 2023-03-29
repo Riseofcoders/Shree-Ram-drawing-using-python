@@ -21,7 +21,7 @@ def outline():
                                 thresholdType=cv2.THRESH_BINARY, blockSize=9, C=2)
     return th3
 
-image = 'ramsita.jpg'
+image = 'Jai-Shree-Ram-thumb.png'
 im = cv2.imread(image, 0)
 th3 = outline()
 
